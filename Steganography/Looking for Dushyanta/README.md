@@ -11,7 +11,7 @@ Author : Amruta Patil (@renegade.0_0)
 Solution
 =
 
-The image is an art piece drawn by Ravi Sharma in 1898. It is nothing on its own, until we run stegseek on it and we find this supposed Keyed Cipher. `sy+15+_d135_lo+_4e+_e1v35_0y`.
+The image is an art piece drawn by Ravi Sharma in 1898. It is nothing on its own, until we run stegseek to find any usefull info on it and we find this supposed Keyed Cipher. `sy+15+_d135_lo+_4e+_e1v35_0y`.
 
 Since it is a Keyed Cipher, we need a key for it, and luckily its `SHAKUNTALA` since she is the one in the photo.
 
