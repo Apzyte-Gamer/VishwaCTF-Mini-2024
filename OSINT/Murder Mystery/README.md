@@ -13,7 +13,7 @@ Author : Aditya Ingale (@adiraj_958)
 Solution
 =
 
-At first, I opened the letter.jpg file to find an envelope with a barcode. I scanned the barcode and got this stuff:
+At first, I opened the `letter.jpg` file to find an envelope with a barcode. I scanned the barcode and got this stuff:
 
 ```
 Barcode ID:    10
@@ -22,3 +22,9 @@ Mailer ID:    810510
 Serial Number:    895115104
 Delivery Point ZIP Code:    97100111119
 ```
+
+This stuff wasn't real, so I went on to reading the `letter.txt` file. It said we had to `decode` the killers name. So, that's when an idea popped me, to concatenate the values after scanning the barcode.
+
+The concatenated numbers were `1011181051089511510497100111119`. By Ascii decoding this, we get the text as `evil_shadow`. By this we get our flag!
+
+`VishwaCTF{evil_shadow}`
