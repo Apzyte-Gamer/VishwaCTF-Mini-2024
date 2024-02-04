@@ -15,9 +15,14 @@ Opening up the website, I was greeted by a marquee and an input box. I put `test
 
 ![image](https://github.com/Apzyte-Gamer/VishwaCTF-Mini-2024/assets/71684682/dfbe3a8d-b94b-420c-918b-988684393ea7)
 
-
 Looking at the description again, I saw it said `Still wondering why did I use *Linux* to host this.`. This gave me an idea that the app has a command injection vulnerability. Looking at the source code, I can see the app gives a request to read the `fl4gf0rF1r5t4pp.php` file. 
 
+![image](https://github.com/Apzyte-Gamer/VishwaCTF-Mini-2024/assets/71684682/335c90fe-d8df-4a91-86ab-f21c003a4ea6)
+
 I first tried `cat fl4gf0rF1r5t4pp.php`, but it gave me a failure message `Impressive.... Most common way to read files but this will not work here. Maybe you find some other alternatives.`. I then looked for other alternatives until my teammate found out that the command is `batcat`, another popular way to copy contents of a file in linux. By checking, it can be seen that `batcat fl4gf0rF1r5t4pp.php` works and gives us the flag!
+
+![image](https://github.com/Apzyte-Gamer/VishwaCTF-Mini-2024/assets/71684682/2fecc97d-1e43-418c-818f-edf67f8ae719)
+
+![image](https://github.com/Apzyte-Gamer/VishwaCTF-Mini-2024/assets/71684682/ce93054c-3afb-485a-bb15-6a5dd13b63c4)
 
 `VishwaCTF{1_just_re4lis3d_1_f*ck3d_up_my_4pplic4t10n}`
