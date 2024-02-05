@@ -6,7 +6,7 @@ I was always fascinated by how a certain Indian artist combined Eurpoean realism
 Author : Amruta Patil (@renegade.0_0)
 
 ### FLAG FORMAT: VishwaCTF{}
-### Attachement: [looking_for_Dushyanta.jpg](https://vishwactf.s3.amazonaws.com/files/attachments/looking_for_Dushyanta_5ec6c684-c947-4200-b6d2-9ad7643d02f6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA6GUFVMV6HO3NYL6Z%2F20240204%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20240204T191813Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9fa56c61398d65aa4ab202ae4678ebbbbbe6ccbc93699284489d9908d105b2e6)
+### Attachement: [looking_for_Dushyanta.jpg](looking_for_Dushyanta.jpg)
 
 Solution
 =
