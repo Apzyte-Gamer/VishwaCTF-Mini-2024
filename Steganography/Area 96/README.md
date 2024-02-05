@@ -23,6 +23,8 @@ The archive has a parkour video. I then thought that there could be the flag in 
 
 I then immediately went onto `flag.jpg` to get any useful info from steghide, but it wasn't the correct pass. So, I instead used it as the pass for `Audio2.7z` and it actually worked and gave me `audiopw.mp3`!
 
-I then opened up `audiopw.mp3` and got a song. I searched the song up on google, and the name of the song was `Praise`. Thinking this was the password for `flag.jpg`, I formatted it to `PRAISE` and gave it a shot.
+I then opened up `audiopw.mp3` and got a song. I searched the song up on google, and the name of the song was `Praise`. Thinking this was the password for `flag.jpg`, I formatted it to `PRAISE` and gave it a shot, and voilà! We got our flag!
+
+![image](https://github.com/Apzyte-Gamer/VishwaCTF-Mini-2024/assets/71684682/63a54263-c014-4483-93ee-de6f2b3a9706)
 
 `VishwaCTF{BeepBoop_Jaadu}`
