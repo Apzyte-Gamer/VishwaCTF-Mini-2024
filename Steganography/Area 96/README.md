@@ -21,6 +21,8 @@ At first, I tried to extract the .7z's files but they required a password. My te
 
 The archive has a parkour video. I then thought that there could be the flag in the flag.jpg as it was named so. So, I went onto `parkour.mp4` thinking I could probably get a hint from there. I used a tool and got a .txt file containing `VIITPUNE`.
 
-I then immediately went to `flag.jpg`, and used steghide to get the flag!
+I then immediately went onto `flag.jpg` to get any useful info from steghide, but it wasn't the correct pass. So, I instead used it as the pass for `Audio2.7z` and it actually worked and gave me `audiopw.mp3`!
+
+I then opened up `audiopw.mp3` and got a song. I searched the song up on google, and the name of the song was `Praise`. Thinking this was the password for `flag.jpg`, I formatted it to `PRAISE` and gave it a shot.
 
 `VishwaCTF{BeepBoop_Jaadu}`
