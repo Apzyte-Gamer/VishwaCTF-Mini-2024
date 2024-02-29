@@ -1,4 +1,4 @@
-![image](https://github.com/Apzyte-Gamer/VishwaCTF-Mini-2024/assets/71684682/fc54c1f3-4c02-432c-9f2b-78f718c64752)I'm a Peaky Blinder
+I'm a Peaky Blinder
 =
 
 Take a little walk to the edge of town
@@ -36,7 +36,7 @@ By looking at Paul Anderson's posts, we can see that there is an instagram link 
 
 We can then see a post in `_t_m_s_00`'s profile containing a question.
 
-![image](https://github.com/Apzyte-Gamer/VishwaCTF-Mini-2024/assets/71684682/bc0c923c-4b5f-4b2f-a2c6-40e2966a1c9f)
+![image](https://github.com/Apzyte-Gamer/VishwaCTF-Mini-2024/assets/71684682/fc54c1f3-4c02-432c-9f2b-78f718c64752)
 
 The answer to it is the `The Garrison`. Hence, by putting it as the flag, we got our answer!
 
